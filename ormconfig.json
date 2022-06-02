@@ -1,0 +1,12 @@
+{
+    "type": "postgres",
+    "url":"postgres://lvlylose:Ec_QEtmxjCCsMZC1DITu_bPRjxq2gpkn@abul.db.elephantsql.com/lvlylose", 
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "migrations": ["dist/migrations/*{.ts,.js}"],
+    "synchronize": true,
+    "cli": {
+        "entitiesDir": "src/entities",
+        "migrationsDir": "src/migrations"
+      }
+  }
+
